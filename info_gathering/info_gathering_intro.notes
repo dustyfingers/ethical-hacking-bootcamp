@@ -1,1 +1,16 @@
-what is information gathering?
+information gathering is the process fo collecting information
+for use in a future attack.
+it can be collecting emails, phone numbers, sensitive hashes, 
+footage, passwords, or anything that can be stored in binary
+
+2 main types:
+active vs passive info gathering
+
+when active, you are directly getting data from/interacting with a target:
+talking to an employee, directly switching packets with a target (pinging, nslookup)
+
+when passive, we are going though some third party:
+googling a target to see if their tech stack is public, their IP address, etc
+
+cool commands to think about:
+nslookup 'ip address here', whois 'ip address here'
