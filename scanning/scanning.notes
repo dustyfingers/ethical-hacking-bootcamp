@@ -1,0 +1,10 @@
+scanning is the next step after information gathering
+we directly exchange packets with the target to ascertain some technical info about their machines/stack
+
+what are we scanning for?
+open ports usually
+if we can find one machine with one open port it is vulnerable and can be exploited
+
+for example every http server has either port 80 or port 443 open to handle incoming http requests
+or for example a company keeps port 5555 open on all of their machines to transfer files internally, etc
+maybe the software they use on these open ports is outdated and has a known vulnerability...?

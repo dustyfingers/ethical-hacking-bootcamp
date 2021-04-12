@@ -1,0 +1,25 @@
+what are tcp and udp?
+they are two different protocols for sending packets of data
+
+
+tcp:
+transmission control protocol
+-most commonly used form of transmission on the internet
+
+when requesting a webpage you are sending tcp packets (usually in the form of an http request) 
+to a server that then decodes the given packets and assembles an appropriate http response of tcp packets
+-not one way!
+
+the three way tcp handshake
+1)--syn--> (synchronize sequence number) client tells server it wants to establish connection
+2)<--syn/ack-- server sends back original syn bits and an acknowledgement message to client
+3)--ack--> client acknowledges response of server and connection is established for data transfer
+
+tcp is all about reliability!
+
+udp:
+user datagram protocol
+similar to tcp - except it throws all error checking out!
+as a result it is much faster!
+used when speed is necessary and error checking is not needed
+(often in live streaming, etc)
